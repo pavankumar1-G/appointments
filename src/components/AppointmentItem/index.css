@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.appointment-item {
+  list-style: none;
+}
+.item-container {
+  border: 1px solid #b5b7c4;
+  border-radius: 12px;
+  padding: 10px;
+  height: 80px;
+  width: 230px;
+  margin-bottom: 10px;
+  margin-right: 15px;
+}
+.appoint-heading-star-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.appoint-heading {
+  font-size: 14px;
+  color: #171f46;
+}
+.star-btn {
+  background-color: transparent;
+  border-width: 0;
+  cursor: pointer;
+}
+.star-img {
+  height: 20px;
+  width: 20px;
+}
+.date-time {
+  color: #b5b7c4;
+  font-size: 12px;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .appointment-item {
+    list-style: none;
+  }
+  .item-container {
+    border: 1px solid #b5b7c4;
+    border-radius: 12px;
+    padding: 10px;
+    height: 90px;
+    width: 230px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+  }
+  .appoint-heading-star-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .appoint-heading {
+    font-size: 15px;
+    color: #171f46;
+  }
+  .star-btn {
+    background-color: transparent;
+    border-width: 0;
+    cursor: pointer;
+  }
+  .star-img {
+    height: 25px;
+    width: 25px;
+  }
+  .date-time {
+    color: #b5b7c4;
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
